@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product-catalog">
+            <div class="navigation">
+                <nav class="navigation-top">
+                    <img src="img/Full Apple logo.png" alt="Loading..." class="logo">
+                    <h1>Full Apple</h1>
+                    <a href="index.html" id="home">Home</a>
+                    <a href="#" id="shop">Shop</a>
+                    <a href="#" id="contact">Contact</a>
+                    <a href="#" id="about">About</a>
+                    <div style="margin-left: auto;"></div>
+                    <a href="" class="icon-link">
+                        <img src="img/search logo.png" alt="Loading..." class="options">
+                    </a>
+                    <a href="" class="icon-link">
+                        <img src="img/heart logo.png" alt="Loading..." class="options">
+                    </a>
+                    <a href="" class="icon-link">
+                        <img src="img/cart logo.png" alt="Loading..." class="options">
+                    </a>
+                    <span>$ &nbsp;</span>
+                    <span id="amount">0.00</span>
+                </nav>
+            </div>
+            <div style="margin-bottom: 80px;"></div>
+            <h1 style="font-size: xx-large;">Explore Products</h1>
+            <div id="productCatalog"></div>
+        </div>
+        <div class="terminal">
+            <div class="terminal-window">
+                <div class="terminal-output"></div>
+                <div class="terminal-input">
+                    <span class="prompt">$</span>
+                    <input type="text" placeholder="Enter help to see all commands">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
