@@ -1,3 +1,3 @@
 # Hello, World!
 
-I started by solving the subtasks using programming languages I was already familiar with. Once I got comfortable with those, I used the same algorithms to complete the subtasks in new languages by learning the corresponding syntax from resources like Geeksforgeeks and W3Schools .Because the algorithms are the same across different languages, it made it easier to apply what I knew in new contexts.
+I started by solving the subtasks using programming languages I was already familiar with. Once I got comfortable with those, I used the same algorithms to complete the subtasks in new languages by learning the corresponding syntax from resources like Geeksforgeeks and W3Schools .As the algorithms are the same across different languages, it made it easier to apply what I knew in new contexts.
