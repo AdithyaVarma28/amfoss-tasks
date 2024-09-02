@@ -27,7 +27,7 @@ I’m really like Machine Learning, enjoy learning new algorithms and solving pr
 | [Task-04](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-04) | Gopal and his PagePal | Completed |
 | [Task-05](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-05) | TerminalTrolly | Completed |
 | [Task-06]() | OpenDocs |  |
-| [Task-07](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-05) | Pirate's Dilemma  | Completed |
+| [Task-07](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-07) | Pirate's Dilemma  | Completed |
 | [Task-08](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-08) | Blog Burst | Completed |
 | [Task-09]() | HERO-DEX! |  |
 | [Task-10](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-10) | Operation Pixel Merge | Completed |
