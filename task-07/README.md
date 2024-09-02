@@ -1,0 +1,3 @@
+# Pirate's Dilemma
+
+This task was time-consuming and tricky, but I’m happy with how it turned out. I used **IMDbPY** to get the IMDb ID and used the code provided in the documentation to find the hash and filesize. For web scraping, I used **BeautifulSoup4**. Even though there weren’t many resources to check if my code was right, it worked well with the test movie. I got a lot of help from YouTube and the documentation, and I checked out OpenSubtitles links for more ideas. After carefully following the steps, I finished the CLI using **Click**.
