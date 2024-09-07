@@ -31,3 +31,4 @@ I’m really like Machine Learning, enjoy learning new algorithms and solving pr
 | [Task-08](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-08) | Blog Burst | Completed |
 | [Task-09]() | HERO-DEX! | Not Completed |
 | [Task-10](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-10) | Operation Pixel Merge | Completed |
+
