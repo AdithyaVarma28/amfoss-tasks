@@ -21,13 +21,13 @@ I’m really like Machine Learning, enjoy learning new algorithms and solving pr
 | Task ID   | Task Name                  | Status              |
 |:---------:|:---------------------------:|:------------------: |
 | [Task-00](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-00) | Install Linux | Completed |
-| [Task-01]() | Type Maestro | Partially Completed |
+| [Task-01](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-01) | Type Maestro | Partially Completed |
 | [Task-02](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-02) | Terminal Chaos | Completed |
 | [Task-03](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-03) | Hello, World! | Completed |
 | [Task-04](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-04) | Gopal and his PagePal | Completed |
 | [Task-05](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-05) | TerminalTrolly | Completed |
-| [Task-06]() | OpenDocs |  |
+| [Task-06](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-06) | OpenDocs | Completed |
 | [Task-07](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-07) | Pirate's Dilemma  | Completed |
 | [Task-08](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-08) | Blog Burst | Completed |
-| [Task-09]() | HERO-DEX! |  |
+| [Task-09]() | HERO-DEX! | Not Completed |
 | [Task-10](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-10) | Operation Pixel Merge | Completed |

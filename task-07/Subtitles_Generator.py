@@ -2,6 +2,7 @@ import click
 from subs_file_hash_size import hash_size_File_url
 import requests
 from bs4 import BeautifulSoup
+from zipfile import ZipFile
 from imdb import IMDb
 import os
 
@@ -9,7 +10,7 @@ def get_imdb_id(file):
     try:
         file=file.replace('.mpeg4','')
         parts=file.split('/')
-        movie=parts[-1].replace('-',' ')
+        movie=parts[len(parts)-1].replace('-',' ')
         imdb=IMDb()
         movies=imdb.search_movie(movie)
         if not movies:
@@ -62,10 +63,7 @@ def web_scrapping(imdb_id,movie_hash=False,movie_size=False,language='all'):
     for a in soup.find_all('a',href=True):
         href=a['href']
         if 'subtitleserve' in href:
-            if href.startswith('http'):
-                subtitles.append(href)
-            else:
-                subtitles.append(base_url+href)
+            subtitles.append(base_url+href)
     if subtitles:
         print("Subtitles found.")
         return subtitles
@@ -74,14 +72,20 @@ def web_scrapping(imdb_id,movie_hash=False,movie_size=False,language='all'):
         return []
     
 def download_subtitle(url,output):
-    os.makedirs(output,exist_ok=True)
     response=requests.get(url)
     if response.status_code==200:
         filename='subtitles.zip'
         output_path=os.path.join(output,filename)
         with open(output_path,'wb') as file:
             file.write(response.content)
-        print(f"File downloaded successfully and saved to {output_path}")
+        print(f"File downloaded successfully.")
+        with ZipFile(output_path,'r') as zip:
+            zip.extractall(output)
+        if output=='.':
+            print(f"File extracted to same directory.")
+        else:
+            print(f"File extracted to {output}")
+        os.remove(output+'/subtitles.zip')
     else:
         print(f"Failed to download file.")
 
@@ -113,7 +117,7 @@ def process_file(file,language,output,file_size,match_by_hash):
     if subtitles:
         print("Available subtitles:")
         for index,subtitle in enumerate(subtitles):
-            print(f"{index+1}:{subtitle}")
+            print(f"{index+1}: {subtitle}")
         choice=int(input("Enter the subtitle to download: "))-1
         if 0<=choice<len(subtitles):
             download_subtitle(subtitles[choice],output)
