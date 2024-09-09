@@ -1,3 +1,3 @@
 # Type Maestro
 
-As advised, I began practicing for 10 minutes daily. However, I could only reach 43 wpm instead of the targeted 60 wpm.
+I began practicing touch typing but still haven’t fully mastered it. I am still trying towards achieving the advised 60 WPM with 95% accuracy.
