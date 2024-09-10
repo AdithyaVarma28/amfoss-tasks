@@ -9,14 +9,10 @@
 │   │   ├── GeneratorTest.class
 │   │   └── Password.class
 │   └── src
-│       ├── Alphabet.class
 │       ├── Alphabet.java
-│       ├── Generator.class
 │       ├── Generator.java
 │       ├── GeneratorTest.java
-│       ├── Main.class
 │       ├── Main.java
-│       ├── Password.class
 │       └── Password.java
 ├── Password-Generator.iml
 ├── README.md
