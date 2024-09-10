@@ -5,7 +5,7 @@ The repository used for this documentation is [Password-Generator](https://githu
 ## Password-Generator
 
 ### Overview
-The **Password-Generator** is a Java console application designed to generate random passwords and assess their strength. It allows users to create strong passwords and check how secure they are. This project is a SIMPLE EXAMPLE password management and helps in generating and assessing passwords.
+The **Password-Generator** is a Java console application designed to generate random passwords and assess their strength. It allows users to create strong passwords and check how secure they are. This project is an example of password management and helps in generating and assessing passwords.
 
 ### Features
 - Generates random passwords based on user preferences.
