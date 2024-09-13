@@ -2,11 +2,11 @@
 
 ## About me
 
-Hey, I’m Adithya Varma from S3 CSE-AI. I love solving problems and puzzles, which makes coding a lot of fun for me. I’m also really into video games, so when I’m not coding, you’ll probably find me gaming. 
+Hey! I’m Adithya Varma from S3 CSE-AI. I love solving puzzles and coding because it’s like a fun challenge for me. When I’m not coding, I’m probably gaming. I’m really into video games, so you might catch me in some battle royale when I’m not working on tech stuff. 
 
 ## Why should we choose you?
 
-I think you should choose me because I’m a dedicated and consistent coder who likes to learn and try new things. I’m always looking to expand my knowledge and I’m also very punctual, ensuring that I meet deadlines and contribute effectively.
+I think you should choose me for the club because I am a dedicated and consistent coder who enjoys learning new things. I’m always up for trying new challenges and making sure I meet deadlines. I am very interested in contributing to the team and bringing a positive attitude to every project.
 
 ## How do you intend to contribute back to the club?
 
@@ -14,7 +14,7 @@ I’m really excited to get involved in the club and contribute however I can. I
 
 ## What are your fields of interest, and how do you plan on working on them?
 
-I’m really like Machine Learning, enjoy learning new algorithms and solving problems. I also love coding challenges to improve my skills. To work on these fields, I plan to dive into Machine Learning projects and practice coding regularly.
+I am really into Machine Learning and enjoy figuring out new algorithms and solving tricky problems. I also like taking on coding challenges to get better. To keep improving, I plan to work on Machine Learning projects and practice coding regularly. This way, I can keep learning and bring new ideas to the club.
 
 ## Task Status
 
@@ -32,3 +32,4 @@ I’m really like Machine Learning, enjoy learning new algorithms and solving pr
 | Task-09 | HERO-DEX! | Not Completed |
 | [Task-10](https://github.com/AdithyaVarma28/amfoss-tasks/tree/main/task-10) | Operation Pixel Merge | Completed |
 
+**`task-09`**: I have completed the apps basic layout, but I have not yet been able to fully complete the implementation and get everything up and running.
