@@ -92,7 +92,16 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(err => console.error(err));
     }
 
-    function viewDetails(productId) {
+    function viewDetails(input) {
+        if(parseInt(input)>=0) {
+            viewDetailsById(input);
+        }
+        else {
+            viewDetailsByName(input);
+        }
+    }
+
+    function viewDetailsById(productId) {
         fetch(`https://fakestoreapi.com/products/${productId}`)
             .then(res=>res.json())
             .then(product=> {
@@ -110,7 +119,28 @@ document.addEventListener('DOMContentLoaded', () => {
                     <br>
                 `;
             })
-            .catch(err => console.error(err));
+            .catch(err=>console.error(err));
+    }
+
+    function viewDetailsByName(productName) {
+        fetch(`https://fakestoreapi.com/products/${productName}`)
+            .then(res=>res.json())
+            .then(product=> {
+                terminalOutput.innerHTML += `
+                    <h3>Product Details:</h3>
+                    <strong>ID:</strong> ${product.id}
+                    <br>
+                    <strong>Title:</strong> ${product.title}
+                    <br>
+                    <strong>Description:</strong> ${product.description}
+                    <br>
+                    <strong>Price:</strong> $${product.price}
+                    <br>
+                    <strong>Category:</strong> ${product.category}
+                    <br>
+                `;
+            })
+            .catch(err=>console.error(err));
     }
 
     function addCommand(productId,quantity=1) {
@@ -169,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function clearTerminal() {
-        terminalOutput.textContent = '';
+        terminalOutput.textContent='';
     }
 
     function searchProducts(query) {
@@ -224,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     contactLink.addEventListener('click',(e)=> {
         e.preventDefault();
-        alert('For any assistance, please call: +91 9876543210');
+        alert('For any assistance, please call: +91 9876543210(The number does not work).');
     });
 
     searchIcon.addEventListener('click',()=> {
